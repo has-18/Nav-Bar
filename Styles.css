@@ -1,0 +1,96 @@
+.navbar {
+    width: 1440px;
+    height: 116px;
+    background-color: #F8F8F8;
+    color: #040415;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #040415;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.frame1 {
+    width: 474px;
+    height: 23px;
+    position: absolute;
+    top: 47px;
+    left: 324px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+}
+
+.frame2 {
+    width: 164px;
+    height: 38px;
+    position: absolute;
+    top: 39px;
+    left: 898px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.instagram-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.twitter-icon {
+    width: 38px;
+    height: 38px;
+    left: 62px;
+    border-radius: 50px;
+}
+
+.facebook-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+}
+
+.logo {
+    width: 84px;
+    height: 86px;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+.login-register-button {
+    width: 238px;
+    height: 58px;
+    position: absolute;
+    top: 29px;
+    left: 1102px;
+    background: #882190;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-text {
+    font-size: 16px;
+    font-weight: bold;
+}

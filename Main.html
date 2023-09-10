@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.jpg" alt="Logo" class="logo">
+        <div class="frame1">
+            <a href="#" onclick="showAlert('About Us');">About Us</a>
+            <a href="#" onclick="showAlert('Workshop');">Workshop</a>
+            <a href="#" onclick="showAlert('Blog');">Blog</a>
+            <a href="#" onclick="showAlert('Contact Us');">Contact Us</a>
+        </div>
+        <div class="frame2">
+            <img src="insta.jpg" alt="Instagram" class="instagram-icon" onclick="showAlert('Instagram');">
+            <img src="twitter.jpg" alt="Twitter" class="twitter-icon" onclick="showAlert('Twitter');">
+            <img src="facebook.jpg" alt="Facebook" class="facebook-icon" onclick="showAlert('Facebook');">
+        </div>
+        <button class="login-register-button" type="button" onclick="showAlert('Login/Register');">
+            <span class="button-text">Login/Register</span>
+        </button>
+    </div>
+    <script>
+        function showAlert(buttonLabel) {
+            alert('Clicked: ' + buttonLabel);
+        }
+    </script>
+</body>
+</html>
